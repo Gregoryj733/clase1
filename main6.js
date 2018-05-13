@@ -4,6 +4,8 @@
 
 nombreCompleto("Gregory","Rivera");*/
 
+var nombre="Jose Rivera";
+
 function edad(anioNac){
     var ed = (2018-anioNac);
     if(ed>=18){
@@ -15,9 +17,9 @@ function edad(anioNac){
 
 switch(edad(1980)){
     case 1:
-        console.log("Es Mayor a 18 Años");
+        console.log(nombre,"Es Mayor a 18 Años");
         break;
     case 0:
-        console.log("Es Menor a 18 Años");
+        console.log(nombre,"Es Menor a 18 Años");
         break;
 }
